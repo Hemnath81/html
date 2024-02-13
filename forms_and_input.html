@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       label{
+         display: inline-block;
+         width: 150px;
+        }
+      .form{
+         background-color: darkcyan;
+         width: 550px;
+         position: relative;
+         left: 350px;
+         top: 250px;
+         padding: 25px;
+      }
+      .sub{
+        position: relative;
+        left: 450px;
+      }
+      
+    </style>
+</head>
+<body>
+ <div class="form">
+  <form action=""></form>
+
+  <label for="">name</label>:
+  <input type="text" placeholder="name" required> 
+  <!-- required: it will alert if box was not filled -->
+  <br><br>
+  <label for="">gender</label>:
+  
+  <input type="radio" name="gender">
+  <label for="">male</label>
+  <!-- name: attr used to show that these two in the same title -->
+  <input type="radio" name="gender">
+  <label for="">female</label>
+  <br><br>
+  <label for="">experience</label>:
+  <textarea name="" id="" cols="30" rows="1"></textarea>
+  <br><br>
+  <label for="" > city</label>:
+  <select name="city" id="city">
+       <option value="" ></option>
+       <option value="chennai">chennai</option>
+       <option value="bengaluru">bengaluru</option>
+       <!-- selected: the attr shows in the desktop box -->
+       <option value="mumbai">mumbai</option>
+       <option value="gujarat">gujarat</option>
+  </select>
+  <br><br>
+  <label for="">password</label>:
+  <input type="password" maxlength="6">
+  <br><br>
+  <input type="submit" class="sub" >
+  
+ </div> 
+</body>
+</html>
